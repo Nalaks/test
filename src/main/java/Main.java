@@ -13,7 +13,10 @@ import java.util.List;
  * @author PC
  */
 public class Main {
-    List<String> arrayList = new ArrayList<String>();
+    List<String> arrayList = new ArrayList<>();
+        
+    private static String method() {
+        return "hello";
+    }
     
-
 }
